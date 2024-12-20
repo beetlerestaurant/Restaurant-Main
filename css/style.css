@@ -2289,6 +2289,12 @@ ul {
         transform: scale(1.05);
     }
 
+  #popularDishes{
+    background-color: #edf8d1;
+    color: green;
+    padding: 60px 20px;
+  }  
+
   .banner_section  .overlay {
         background: rgba(0, 0, 0, 0.5);
         opacity: 0;
@@ -2351,6 +2357,10 @@ ul {
   top: 0;
   width: 100%;
   z-index: 999;
+}
+
+.downloadMenu{
+  color: white;
 }
 
 /* line 60, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_menu.scss */
@@ -3285,6 +3295,14 @@ ul {
 /* line 2, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_food_menu.scss */
 .food_menu {
   padding: 140px 0px 90px;
+}
+
+#menu{
+  background-color: #f9f9e9;
+}
+
+#strength{
+  background-color: #f9f9e9;
 }
 
 @media (max-width: 576px) {
