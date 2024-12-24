@@ -2562,13 +2562,17 @@ ul {
 /**************** banner part css start ****************/
 /* line 2, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_banner.scss */
 .banner_part {
-  height: 880px;
   position: relative;
-  background-image: url(../img/pastabg.png);
+  background-image: url(../img/banner3.jpeg); /* Image */
+  background-size: 100% 100%;  /* Set width to 80% and height to 50% */
+  background-position: center;  /* Center the image */
   background-repeat: no-repeat;
-  background-size: 41%;
-  background-position: top right;
+  margin-top: 150px; /* Ensure the banner starts below the navbar */
 }
+
+
+
+
 
 @media (max-width: 576px) {
   /* line 2, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_banner.scss */

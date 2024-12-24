@@ -64,11 +64,20 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="#contact">Contact</a>
                                 </li>
+                                
                             </ul>
                         </div>
                         <div class="menu_btn">
-                            <a href="#booking" class="btn_1 d-none d-sm-block">book a tabel</a>
+                            <a href="#booking" class="btn_1 d-none d-sm-block" style="background-color: black; color: white;">book your table</a>
                         </div>
+                        
+                        <style>
+                            .menu_btn a:hover {
+                                background-color: white;
+                                color: black;
+                                transform: scale(1.05);
+                            }
+                        </style>
                     </nav>
                 </div>
             </div>
@@ -83,16 +92,8 @@
                 <div class="col-lg-6">
                     <div class="banner_text">
                         <div class="banner_text_iner">
-                            <h5>Savor the authentic flavors.</h5>
-                            <h1>Deliciousness jumping into the mouth</h1>
-                            <p>"Indian restaurant Maharashtrian Restaurant Punjabi restaurant North Indian restaurant Malwani dishes Chicken cusines Mutton cusines Fish dishes Veg, non-veg Thali Specialties in moctails"</p>
-                            <div class="banner_btn">
-                                <div class="banner_btn_iner">
-                                    <a href="#" class="btn_2">Reservation <img src="img/icon/left_1.svg" alt=""></a>
-                                </div>
-                                <a href="img/bettlevideo.mp4" class="popup-youtube video_popup">
-                                    <span><img src="img/icon/play.svg" alt=""></span> Experience Our Story </a>
-                            </div>
+                            
+                           
                         </div>
                     </div>
                 </div>
@@ -109,6 +110,13 @@
                     <div class="section_tittle">
                         <p>Popular Dishes</p>
                         <h2>Our Exclusive Items</h2>
+                        <div class="banner_btn">   
+                            <a href="img/bettlevideo.mp4" class="popup-youtube video_popup">
+                                <span style="display: inline-block; padding: 10px; background-color: #000; border-radius: 50%;"><img src="img/icon/play.svg" alt="Play Button"></span>
+                                <span style="color: black;">Experience the vibe Our Restaurant</span>
+                            </a>
+                            
+                        </div>
                     </div>
                 </div>
             </div>
@@ -116,11 +124,11 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="single_blog_item">
                         <div class="single_blog_img">
-                            <img src="img/seafood.jpg" alt="">
+                            <img src="img/vegthali.jpg" alt="">
                         </div>
                         <div class="single_blog_text">
-                            <h3>Authentic Maharashtrian Seafood</h3>
-                            <p>Was brean shed moveth day yielding tree yielding day were female and </p>
+                            <h3>Veg Thali</h3>
+                            <p>A delightful combination of fresh vegetables, lentils, and rice, offering a perfect balance of flavors and textures. Served with chapati, curd, and pickles to complete the traditional experience.</p>
                             <a href="#" class="btn_3">Read More <img src="img/icon/left_2.svg" alt=""></a>
                         </div>
                     </div>
@@ -128,11 +136,11 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="single_blog_item">
                         <div class="single_blog_img">
-                            <img src="img/food_item/food_item_2.png" alt="">
+                            <img src="img/chickenthali2.jpeg" alt="">
                         </div>
                         <div class="single_blog_text">
-                            <h3>Fusion Indian Chinese</h3>
-                            <p>Was brean shed moveth day yielding tree yielding day were female and </p>
+                            <h3>Chicken Thali</h3>
+                            <p>Tender chicken cooked in aromatic spices, paired with rice, dal, and crispy chapati. A fulfilling and flavorful meal that brings together the essence of traditional Maharashtrian cooking.</p>
                             <a href="#" class="btn_3">Read More <img src="img/icon/left_2.svg" alt=""></a>
                         </div>
                     </div>
@@ -140,11 +148,11 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="single_blog_item">
                         <div class="single_blog_img">
-                            <img src="img/tandoor.jpg" alt="">
+                            <img src="img/chickenthali.jpg" alt="">
                         </div>
                         <div class="single_blog_text">
-                            <h3>Smokey Tandoori</h3>
-                            <p>Was brean shed moveth day yielding tree yielding day were female and </p>
+                            <h3>Mutton Thali</h3>
+                            <p>Juicy mutton cooked in rich, fragrant spices, served with rice, chapati, and dal. A hearty meal that brings together the best of meat and traditional sides for a satisfying experience. </p>
                             <a href="#" class="btn_3">Read More <img src="img/icon/left_2.svg" alt=""></a>
                         </div>
                     </div>
@@ -219,13 +227,31 @@
                         <p>Popular Menu</p>
                         <h2>Delicious Food Menu</h2>
                         <br>
-                        <h4 class="downloadMenu"><a target="_blank" href="./BEETLE RESTAURANT (2).pdf"> Click here for Full Menu</a></h4>
+                        <h4 class="downloadMenu">
+                            <a target="_blank" href="./BEETLE RESTAURANT (2).pdf" 
+                               style="color: black; text-decoration: none; transition: all 0.3s;">
+                                Click here for Full Menu
+                            </a>
+                        </h4>
+                        
+                        <style>
+                            .downloadMenu a {
+                                text-decoration: underline; /* Adds an underline by default */
+                            }
+                        
+                            .downloadMenu a:hover {
+                                color: #ff6600; /* Change to an orange color on hover */
+                                transform: translateY(-3px); /* Slight upward movement */
+                                text-decoration: underline; /* Keep the underline effect on hover */
+                            }
+                        </style>
+                        
                     </div>
                 </div>
                 <div class="col-lg-12">
                     <div class="nav nav-tabs food_menu_nav" id="myTab" role="tablist">
                         <a class="active" id="Special-tab" data-toggle="tab" href="#Special" role="tab"
-                            aria-controls="Special" aria-selected="false">Starter <img src="img/icon/play.svg"
+                            aria-controls="Special" aria-selected="false">Thalis <img src="img/icon/play.svg"
                                 alt="play"></a>
                         <a id="Breakfast-tab" data-toggle="tab" href="#Breakfast" role="tab" aria-controls="Breakfast"
                             aria-selected="false">Indian<img src="img/icon/play.svg" alt="play"></a>
@@ -253,53 +279,53 @@
                             <div class="row">
                                 <div class="col-sm-6 col-lg-6">
                                     <div class="single_food_item media">
-                                        <img src="img/food_menu/starter1.jpg" class="mr-3" alt="...">
+                                        <img src="img/thali1.jpg" class="mr-3" alt="...">
                                         <div class="media-body align-self-center">
-                                            <h3>Masala Papad</h3>
-                                            <p>They're wherein heaven seed hath nothing</p>
-                                            <h5>50.00 Rs</h5>
+                                            <h3>Veg Thali</h3>
+                                           
+                                            <h5>179.00 Rs</h5>
                                         </div>
                                     </div>
                                     <div class="single_food_item media">
-                                        <img src="img/food_menu/starter2.jpg" class="mr-3" alt="...">
+                                        <img src="img/thali2.jpg" class="mr-3" alt="...">
                                         <div class="media-body align-self-center">
-                                            <h3>Paneer Tikka</h3>
-                                            <p>They're wherein heaven seed hath nothing</p>
+                                            <h3>Agri Lapeta Chicken Thali</h3>
+                                           
                                             <h5>249.00 Rs</h5>
                                         </div>
                                     </div>
                                     <div class="single_food_item media">
-                                        <img src="img/food_menu/starter3.jpg" class="mr-3" alt="...">
+                                        <img src="img/thali3.webp" class="mr-3" alt="...">
                                         <div class="media-body align-self-center">
-                                            <h3>Chiken Tikka</h3>
-                                            <p>They're wherein heaven seed hath nothing</p>
-                                            <h5>279.00 Rs</h5>
+                                            <h3>Kolhapuri Chicken Thali</h3>
+                                            
+                                            <h5>249.00 Rs</h5>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-sm-6 col-lg-6">
                                     <div class="single_food_item media">
-                                        <img src="img/food_menu/starter4.jpg" class="mr-3" alt="...">
+                                        <img src="img/thali4.jpg" class="mr-3" alt="...">
                                         <div class="media-body align-self-center">
-                                            <h3>Veg Machurian</h3>
-                                            <p>They're wherein heaven seed hath nothing</p>
+                                            <h3>Kala Chicken Thali</h3>
+                                           
                                             <h5>219.00 Rs</h5>
                                         </div>
                                     </div>
                                     <div class="single_food_item media">
-                                        <img src="img/food_menu/starter5.jpg" class="mr-3" alt="...">
+                                        <img src="img/thali5.jpg" class="mr-3" alt="...">
                                         <div class="media-body align-self-center">
-                                            <h3>Chiken SpringRoll</h3>
-                                            <p>They're wherein heaven seed hath nothing</p>
-                                            <h5>279.00 Rs</h5>
+                                            <h3>Agri Lapeta Mutton Thali</h3>
+                                           
+                                            <h5>289.00 Rs</h5>
                                         </div>
                                     </div>
                                     <div class="single_food_item media">
-                                        <img src="img/food_menu/starter6.jpg" class="mr-3" alt="...">
+                                        <img src="img/thali6.jpg" class="mr-3" alt="...">
                                         <div class="media-body align-self-center">
-                                            <h3>Hara Bhara Kabab</h3>
-                                            <p>They're wherein heaven seed hath nothing</p>
-                                            <h5>189.00 Rs</h5>
+                                            <h3>Dhangri Mutton Thali</h3>
+                                          
+                                            <h5>289.00 Rs</h5>
                                         </div>
                                     </div>
                                 </div>
@@ -313,7 +339,7 @@
                                         <img src="img/food_menu/indian1.jpg" class="mr-3" alt="...">
                                         <div class="media-body align-self-center">
                                             <h3>Veg Kolhapuri</h3>
-                                            <p>They're wherein heaven seed hath nothing</p>
+                                           
                                             <h5>219.00 Rs</h5>
                                         </div>
                                     </div>
@@ -321,7 +347,7 @@
                                         <img src="img/food_menu/indian2.jpg" class="mr-3" alt="...">
                                         <div class="media-body align-self-center">
                                             <h3>Butter Chiken</h3>
-                                            <p>They're wherein heaven seed hath nothing</p>
+                                           
                                             <h5>499.00 Rs</h5>
                                         </div>
                                     </div>
@@ -329,7 +355,7 @@
                                         <img src="img/food_menu/indian3.jpg" class="mr-3" alt="...">
                                         <div class="media-body align-self-center">
                                             <h3>Paneer Maratha</h3>
-                                            <p>They're wherein heaven seed hath nothing</p>
+                                            
                                             <h5>239.00 Rs</h5>
                                         </div>
                                     </div>
@@ -339,7 +365,7 @@
                                         <img src="img/food_menu/indian4.jpg" class="mr-3" alt="...">
                                         <div class="media-body align-self-center">
                                             <h3>Murgh musallam</h3>
-                                            <p>They're wherein heaven seed hath nothing</p>
+                                            
                                             <h5>499.00 Rs</h5>
                                         </div>
                                     </div>
@@ -347,7 +373,7 @@
                                         <img src="img/food_menu/indian5.jpg" class="mr-3" alt="...">
                                         <div class="media-body align-self-center">
                                             <h3>Palak Paneer</h3>
-                                            <p>They're wherein heaven seed hath nothing</p>
+                                           
                                             <h5>239.00 Rs</h5>
                                         </div>
                                     </div>
@@ -355,7 +381,7 @@
                                         <img src="img/food_menu/indian6.jpg" class="mr-3" alt="...">
                                         <div class="media-body align-self-center">
                                             <h3>Mutton Handi</h3>
-                                            <p>They're wherein heaven seed hath nothing</p>
+                                           
                                             <h5>1099.00 Rs</h5>
                                         </div>
                                     </div>
@@ -370,7 +396,7 @@
                                         <img src="img/food_menu/asian1.jpg" class="mr-3" alt="...">
                                         <div class="media-body align-self-center">
                                             <h3>Chicken Pop Corn</h3>
-                                            <p>They're wherein heaven seed hath nothing</p>
+                                           
                                             <h5>260.00 Rs</h5>
                                         </div>
                                     </div>
@@ -378,7 +404,7 @@
                                         <img src="img/food_menu/asian2.jpg" class="mr-3" alt="...">
                                         <div class="media-body align-self-center">
                                             <h3>Pasta</h3>
-                                            <p>They're wherein heaven seed hath nothing</p>
+                                            
                                             <h5>299.00 Rs</h5>
                                         </div>
                                     </div>
@@ -386,7 +412,7 @@
                                         <img src="img/food_menu/asian3.jpg" class="mr-3" alt="...">
                                         <div class="media-body align-self-center">
                                             <h3>Chicken Meat Ball</h3>
-                                            <p>They're wherein heaven seed hath nothing</p>
+                                            
                                             <h5>399.00 Rs</h5>
                                         </div>
                                     </div>
@@ -396,7 +422,7 @@
                                         <img src="img/food_menu/asian4.jpg" class="mr-3" alt="...">
                                         <div class="media-body align-self-center">
                                             <h3>Basil Chicken</h3>
-                                            <p>They're wherein heaven seed hath nothing</p>
+                                         
                                             <h5>300.00 Rs</h5>
                                         </div>
                                     </div>
@@ -404,7 +430,7 @@
                                         <img src="img/food_menu/asian5.jpg" class="mr-3" alt="...">
                                         <div class="media-body align-self-center">
                                             <h3>Fish & Chips</h3>
-                                            <p>They're wherein heaven seed hath nothing</p>
+                                          
                                             <h5>449.00 Rs</h5>
                                         </div>
                                     </div>
@@ -412,7 +438,7 @@
                                         <img src="img/food_menu/asian6.jpg" class="mr-3" alt="...">
                                         <div class="media-body align-self-center">
                                             <h3>Prawns Chilly Oil</h3>
-                                            <p>They're wherein heaven seed hath nothing</p>
+                                           
                                             <h5>400.00 Rs</h5>
                                         </div>
                                     </div>
@@ -428,7 +454,7 @@
                                         <img src="img/food_menu/sea1.jpg" class="mr-3" alt="...">
                                         <div class="media-body align-self-center">
                                             <h3>Fish Fry</h3>
-                                            <p>They're wherein heaven seed hath nothing</p>
+                                            
                                             <h5></h5>
                                         </div>
                                     </div>
@@ -436,7 +462,7 @@
                                         <img src="img/food_menu/sea2.jpg" class="mr-3" alt="...">
                                         <div class="media-body align-self-center">
                                             <h3>Prawns</h3>
-                                            <p>They're wherein heaven seed hath nothing</p>
+                                          
                                             <h5></h5>
                                         </div>
                                     </div>
@@ -444,7 +470,7 @@
                                         <img src="img/food_menu/sea3.jpg" class="mr-3" alt="...">
                                         <div class="media-body align-self-center">
                                             <h3>Surmai</h3>
-                                            <p>They're wherein heaven seed hath nothing</p>
+                                          
                                             <h5></h5>
                                         </div>
                                     </div>
@@ -454,7 +480,7 @@
                                         <img src="img/food_menu/sea4.jpg" class="mr-3" alt="...">
                                         <div class="media-body align-self-center">
                                             <h3>Pomfret</h3>
-                                            <p>They're wherein heaven seed hath nothing</p>
+                                            
                                             <h5></h5>
                                         </div>
                                     </div>
@@ -472,7 +498,7 @@
                                         <img src="img/food_menu/starter4.jpg" class="mr-3" alt="...">
                                         <div class="media-body align-self-center">
                                             <h3>Veg Manchurian</h3>
-                                            <p>They're wherein heaven seed hath nothing</p>
+                                            
                                             <h5>219.00 Rs</h5>
                                         </div>
                                     </div>
@@ -480,7 +506,7 @@
                                         <img src="img/food_menu/chinese2.jpg" class="mr-3" alt="...">
                                         <div class="media-body align-self-center">
                                             <h3>Hakka Noodles</h3>
-                                            <p>They're wherein heaven seed hath nothing</p>
+                                            
                                             <h5>189.00 Rs</h5>
                                         </div>
                                     </div>
@@ -488,7 +514,7 @@
                                         <img src="img/food_menu/chinese3.jpg" class="mr-3" alt="...">
                                         <div class="media-body align-self-center">
                                             <h3>Schezwan Fried Rice</h3>
-                                            <p>They're wherein heaven seed hath nothing</p>
+                                         
                                             <h5>219.00 Rs</h5>
                                         </div>
                                     </div>
@@ -498,7 +524,7 @@
                                         <img src="img/food_menu/chinese4.jpg" class="mr-3" alt="...">
                                         <div class="media-body align-self-center">
                                             <h3>Fried Rice</h3>
-                                            <p>They're wherein heaven seed hath nothing</p>
+                                   
                                             <h5>189.00 Rs</h5>
                                         </div>
                                     </div>
@@ -506,7 +532,7 @@
                                         <img src="img/food_menu/chinese6.jpg" class="mr-3" alt="...">
                                         <div class="media-body align-self-center">
                                             <h3>Triple Noodles </h3>
-                                            <p>They're wherein heaven seed hath nothing</p>
+                                          
                                             <h5>249.00 Rs</h5>
                                         </div>
                                     </div>
@@ -514,7 +540,7 @@
                                         <img src="img/food_menu/cininse6.jpg" class="mr-3" alt="...">
                                         <div class="media-body align-self-center">
                                             <h3>Pan Fried Noodles </h3>
-                                            <p>They're wherein heaven seed hath nothing</p>
+                                            
                                             <h5>239.00 Rs</h5>
                                         </div>
                                     </div>
@@ -529,7 +555,7 @@
                                     <img src="img/food_menu/rice1.jpg" class="mr-3" alt="...">
                                     <div class="media-body align-self-center">
                                         <h3>Paneer Pulav</h3>
-                                        <p>They're wherein heaven seed hath nothing</p>
+                                        
                                         <h5>249.00 Rs</h5>
                                     </div>
                                 </div>
@@ -537,7 +563,7 @@
                                     <img src="img/food_menu/rice2.jpg" class="mr-3" alt="...">
                                     <div class="media-body align-self-center">
                                         <h3>Chiken Biryani</h3>
-                                        <p>They're wherein heaven seed hath nothing</p>
+                                       
                                         <h5>289.00 Rs</h5>
                                     </div>
                                 </div>
@@ -545,7 +571,7 @@
                                     <img src="img/food_menu/rice3.jpg" class="mr-3" alt="...">
                                     <div class="media-body align-self-center">
                                         <h3>Veg Biryani</h3>
-                                        <p>They're wherein heaven seed hath nothing</p>
+                                        
                                         <h5>219.00 Rs</h5>
                                     </div>
                                 </div>
@@ -555,7 +581,7 @@
                                     <img src="img/food_menu/rice4.jpg" class="mr-3" alt="...">
                                     <div class="media-body align-self-center">
                                         <h3>Jeera Rice</h3>
-                                        <p>They're wherein heaven seed hath nothing</p>
+                                     
                                         <h5>159.00 Rs</h5>
                                     </div>
                                 </div>
@@ -563,7 +589,7 @@
                                     <img src="img/food_menu/rice5.jpg" class="mr-3" alt="...">
                                     <div class="media-body align-self-center">
                                         <h3>Dal Khichdi</h3>
-                                        <p>They're wherein heaven seed hath nothing</p>
+                                        
                                         <h5>219.00 Rs</h5>
                                     </div>
                                 </div>
@@ -571,7 +597,7 @@
                                     <img src="img/food_menu/rice6.jpg" class="mr-3" alt="...">
                                     <div class="media-body align-self-center">
                                         <h3>Mutton Dum Biryani</h3>
-                                        <p>They're wherein heaven seed hath nothing</p>
+                                        
                                         <h5>369.00 Rs</h5>
                                     </div>
                                 </div>
@@ -586,7 +612,7 @@
                                         <img src="img/food_menu/salad1.jpg" class="mr-3" alt="...">
                                         <div class="media-body align-self-center">
                                             <h3>Fresh Garden Salad</h3>
-                                            <p>They're wherein heaven seed hath nothing</p>
+                                           
                                             <h5>99.00 Rs</h5>
                                         </div>
                                     </div>
@@ -594,7 +620,7 @@
                                         <img src="img/food_menu/salad2.jpg" class="mr-3" alt="...">
                                         <div class="media-body align-self-center">
                                             <h3>Tossed Salad</h3>
-                                            <p>They're wherein heaven seed hath nothing</p>
+                                            
                                             <h5>119.00 Rs</h5>
                                         </div>
                                     </div>
@@ -602,7 +628,7 @@
                                         <img src="img/food_menu/salad3.jpg" class="mr-3" alt="...">
                                         <div class="media-body align-self-center">
                                             <h3>Russian Salad</h3>
-                                            <p>They're wherein heaven seed hath nothing</p>
+                                            
                                             <h5>149.00 Rs</h5>
                                         </div>
                                     </div>
@@ -612,7 +638,7 @@
                                         <img src="img/food_menu/salad4.jpg" class="mr-3" alt="...">
                                         <div class="media-body align-self-center">
                                             <h3>Caesar Salad</h3>
-                                            <p>They're wherein heaven seed hath nothing</p>
+                                            
                                             <h5>179.00 Rs</h5>
                                         </div>
                                     </div>  
@@ -627,7 +653,7 @@
                                     <img src="img/food_menu/bev1.jpg" class="mr-3" alt="...">
                                     <div class="media-body align-self-center">
                                         <h3>Pina Colada</h3>
-                                        <p>They're wherein heaven seed hath nothing</p>
+                                       
                                         <h5>149.00 Rs</h5>
                                     </div>
                                 </div>
@@ -635,7 +661,7 @@
                                     <img src="img/food_menu/bev2.jpg" class="mr-3" alt="...">
                                     <div class="media-body align-self-center">
                                         <h3>Blue Logon</h3>
-                                        <p>They're wherein heaven seed hath nothing</p>
+                                        
                                         <h5>119.00 Rs</h5>
                                     </div>
                                 </div>
@@ -643,7 +669,7 @@
                                     <img src="img/food_menu/bev3.jpg" class="mr-3" alt="...">
                                     <div class="media-body align-self-center">
                                         <h3>Strawberry Glaura</h3>
-                                        <p>They're wherein heaven seed hath nothing</p>
+                                       
                                         <h5>119.00 Rs</h5>
                                     </div>
                                 </div>
@@ -653,7 +679,7 @@
                                     <img src="img/food_menu/bev4.jpg" class="mr-3" alt="...">
                                     <div class="media-body align-self-center">
                                         <h3>Vanilla shake</h3>
-                                        <p>They're wherein heaven seed hath nothing</p>
+                                    
                                         <h5>99.00 Rs</h5>
                                     </div>
                                 </div>
@@ -661,7 +687,7 @@
                                     <img src="img/food_menu/bev5.jpg" class="mr-3" alt="...">
                                     <div class="media-body align-self-center">
                                         <h3>Mango Shake</h3>
-                                        <p>They're wherein heaven seed hath nothing</p>
+                                        
                                         <h5>239.00 Rs</h5>
                                     </div>
                                 </div>
@@ -669,7 +695,7 @@
                                     <img src="img/food_menu/bev6.jpg" class="mr-3" alt="...">
                                     <div class="media-body align-self-center">
                                         <h3>Solkadi</h3>
-                                        <p>They're wherein heaven seed hath nothing</p>
+                                       
                                         <h5>60.00 Rs</h5>
                                     </div>
                                 </div>
@@ -684,7 +710,7 @@
                                     <img src="img/food_menu/des1.jpg" class="mr-3" alt="...">
                                     <div class="media-body align-self-center">
                                         <h3>Choice Of Ice Cream</h3>
-                                        <p>They're wherein heaven seed hath nothing</p>
+                        
                                         <h5>140.00 Rs</h5>
                                     </div>
                                 </div>
@@ -692,7 +718,7 @@
                                     <img src="img/food_menu/des2.jpg" class="mr-3" alt="...">
                                     <div class="media-body align-self-center">
                                         <h3>Choice Of Kulfi</h3>
-                                        <p>They're wherein heaven seed hath nothing</p>
+                                       
                                         <h5>140.00 Rs</h5>
                                     </div>
                                 </div>
@@ -700,7 +726,7 @@
                                     <img src="img/food_menu/des3.jpg" class="mr-3" alt="...">
                                     <div class="media-body align-self-center">
                                         <h3>Hot Gulab Jamun</h3>
-                                        <p>They're wherein heaven seed hath nothing</p>
+                                    
                                         <h5>120.00 Rs</h5>
                                     </div>
                                 </div>
@@ -710,7 +736,7 @@
                                     <img src="img/food_menu/des4.jpg" class="mr-3" alt="...">
                                     <div class="media-body align-self-center">
                                         <h3>Caeamel Custard</h3>
-                                        <p>They're wherein heaven seed hath nothing</p>
+                                        
                                         <h5>160.00 Rs</h5>
                                     </div>
                                 </div>  
@@ -975,8 +1001,11 @@
                         <h4>Contact us</h4>
                         <div class="contact_info">
                             <p><span> Address :</span>Durga Imperial, Pisavli Village, Nandivali Gaon, Kalyan, Dombivli, Maharashtra 421306 </p>
-                            <p><span> Phone :</span> +91 832 983 0967</p>
                             <p><span> Email : </span>beetlerestaurant@gmail.com </p>
+                            <p><span style="font-size: 18px;">Phone :</span> <a href="tel:+918329830967" style="font-size: 24px; font-weight: bold; color: black;">+91 832 983 0967</a></p>
+                            <p><span style="font-size: 18px;">Phone :</span> <a href="tel:+918446648288" style="font-size: 24px; font-weight: bold; color: black;">+91 844 664 8288</a></p>
+                            
+
                         </div>
                     </div>
                 </div>
